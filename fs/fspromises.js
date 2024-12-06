@@ -5,6 +5,7 @@ const path = require("path");
 const filename = "fsprimises.text";
 const filePath = path.join(__dirname, filename);
 
+// data read
 
 // const file = __dirname;
 // fs.promises.readdir(file)
