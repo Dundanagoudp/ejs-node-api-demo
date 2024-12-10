@@ -3,11 +3,11 @@ const http = require("http");
 
 const server =http.createServer( (req, res)=>{
       if(req.url === "/"){
-            res.write("hello world 2");
+            res.write("hello world 2 4");
             res.end();
       }
       if(req.url === "/source"){
-            res.write("fcgvhbjnkmnfcgvhbjnjkvghcfgvbnm");
+            res.write("fcgvhbjnkmnfcgvhbjnjkvghcfgvbnm.like");
             res.end();
       }
 });
